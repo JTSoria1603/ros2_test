@@ -3,7 +3,7 @@ from launch_ros.actions import node
 
 def generate_launch_description():
     return LaunchDescription([
-        node(
+        Node(
             package = 'demo_nodes_py',
             executable = 'listener'
         )
